@@ -6,4 +6,5 @@ export const router = Router()
 router.get('/libros', libro.getAll);
 router.get('/libros/:id', libro.getOne);
 router.post('/libro/', libro.add);
+router.put('/libros/:id', libro.update);
 router.delete('/libro', libro.delete);
